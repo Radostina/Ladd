@@ -1,0 +1,3 @@
+RD 20.0         ; NCRDY
+OR 20.1
+WRT.NOT 71.0        ; SRVK.TM

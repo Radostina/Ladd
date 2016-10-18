@@ -1,0 +1,12 @@
+RD 10.0        
+RD.STK 10.1
+AND 10.2
+OR.STK
+WRT 70.1
+
+RD 10.2        
+RD.NOT.STK 10.3
+OR 10.4
+AND.STK
+WRT 70.2
+

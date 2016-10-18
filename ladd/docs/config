@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<parport>
+<inputs>
+<input>
+<id>10.0</id>
+<bitnumb>3</bitnumb> <!--LSB!-->
+<initialValue>1</initialValue>
+</input>
+<input>
+<id>10.1</id>
+<bitnumb>4</bitnumb> <!--LSB!-->
+<initialValue>1</initialValue>
+</input>
+<input>
+<id>10.2</id>
+<bitnumb>5</bitnumb> <!--LSB!-->
+<initialValue>1</initialValue>
+</input>
+<input>
+<id>10.3</id>
+<bitnumb>6</bitnumb> <!--LSB!-->
+<initialValue>1</initialValue>
+</input>
+<input>
+<id>10.4</id>
+<bitnumb>7</bitnumb> <!--LSB!-->
+<initialValue>0</initialValue>
+</input>
+</inputs>
+<outputs>
+<output>
+<id>70.0</id>
+<bitnumb>0</bitnumb> <!--LSB!-->
+</output>
+<output>
+<id>70.1</id>
+<bitnumb>1</bitnumb> <!--LSB!-->
+</output>
+<output>
+<id>70.2</id>
+<bitnumb>2</bitnumb> <!--LSB!-->
+</output>
+<output>
+<id>70.3</id>
+<bitnumb>3</bitnumb> <!--LSB!-->
+</output>
+<output>
+<id>70.4</id>
+<bitnumb>4</bitnumb> <!--LSB!-->
+</output>
+</outputs>
+<timers>
+<timer>
+<id>1</id>
+<msecs>6000</msecs>
+</timer>
+<timer>
+<id>2</id>
+<msecs>9000</msecs>
+</timer>
+</timers>
+</parport>
+<serial>
+<inputs>
+<input>
+<id>20.0</id>
+<bitnumb>6</bitnumb> <!--LSB!-->
+<initialValue>1</initialValue>
+</input>
+<input>
+<id>20.1</id>
+<bitnumb>7</bitnumb> <!--LSB!-->
+<initialValue>1</initialValue>
+</input>
+</inputs>
+<outputs>
+<output>
+<id>71.0</id>
+<bitnumb>3</bitnumb> 
+</output>
+<output>
+<id>71.1</id>
+<bitnumb>4</bitnumb> <!--LSB!-->
+</output>
+</outputs>
+<timers>
+<timer>
+<id>1</id>
+<msecs>5000</msecs>
+</timer>
+<timer>
+<id>2</id>
+<msecs>10000</msecs>
+</timer>
+</timers>
+</serial>
+</config>
+ 
